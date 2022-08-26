@@ -1,16 +1,23 @@
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import { Explain } from "./Explain";
 
 const Issue = ({ item }) => {
-  const { id, title, desctiption } = item;
+  const { id, title, desctiption, explenation } = item;
+
   return (
-    <Card className="my-5">
-      <Card.Header as="h5">Issue</Card.Header>
+    <Card className="my-5 bg-light">
+      <Card.Header as="h5" className="bg-dark text-white">
+        Issue {id}
+      </Card.Header>
       <Card.Body>
-        <Card.Title>{title}</Card.Title>
+        <Card.Title className="my-4 ">{title}</Card.Title>
         <Card.Text>{desctiption}</Card.Text>
-        <Button variant="primary">Go somewhere</Button>
       </Card.Body>
+      <Explain
+        explenation={explenation}
+        title={title}
+        className="text-center"
+      />
     </Card>
   );
 };
