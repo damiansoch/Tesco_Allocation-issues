@@ -5,7 +5,7 @@ import React from "react";
 
 const IssuesList = () => {
   return (
-    <div className="my-5">
+    <div className="my-3">
       {list.map((item) => (
         <Issue key={item.id} item={item} />
       ))}
