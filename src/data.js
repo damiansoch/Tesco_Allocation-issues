@@ -36,7 +36,7 @@ export const list = [
     explenation: [
       "To get all the addresses for the trip go to Reports->Delivery reports->Van Trip details. Put in the trip number. ",
       "Unfortunately, the amount of crates and the receipts for the orders won't be available.",
-      "Also driver won't de able to use SDS.",
+      "Also driver won't be able to use SDS.",
       "Orders are not paid so you need to be instructed by the management or head office to deliver them.",
       "When drivers delivering the orders, they need to explain the customers that the order is not paid for, because there is a problem with the system. He needs to explain that in case of the problem with the payment, someone may contact the customer to resolve the issue.",
       "Regarding the receipts, driver needs to inform the customer, that they will be posted or delivered as soon as possible.",
